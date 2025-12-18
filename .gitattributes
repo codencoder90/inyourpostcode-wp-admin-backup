@@ -1,2 +1,2 @@
-
 wp-content/ai1wm-backups/* filter=lfs diff=lfs merge=lfs -text
+wp-content/ai1wm-backups/ filter=lfs diff=lfs merge=lfs -text
