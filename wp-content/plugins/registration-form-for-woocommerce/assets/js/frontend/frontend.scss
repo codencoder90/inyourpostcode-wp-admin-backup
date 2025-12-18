@@ -1,0 +1,86 @@
+.tgwcfb-register {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: row;
+	column-gap: 10px;
+
+	&.woocommerce-account-fields {
+		display: block;
+	}
+
+	@for $i from 1 through 6 {
+		h#{7 - $i} {
+			flex: 0 0 100%;
+		}
+	}
+
+	p:not( .form-row ),
+	.field-width-100 {
+		flex: 0 0 100%;
+	}
+
+	.field-width-50 {
+		flex: 0 0 calc(50% - 5px);
+	}
+}
+
+.tgwcfb-profile-picture-upload-field .profile-picture-preview {
+	display: block;
+}
+
+.tgwcfb-options {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	.tgwcfb-option {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+
+		.tgwcfb-checkbox-label,
+		.tgwcfb-radio-label {
+			margin: 0 0 0 10px;
+			flex-grow: 1;
+		}
+	}
+}
+
+.input-wrapper {
+	display: flex;
+	align-items: center;
+
+	input[type="range"] {
+		flex-grow: 1;
+	}
+
+	input[type="number"] {
+		width: 100px !important;
+	}
+}
+
+.tgwcfb-swal2-container {
+	.swal2-title {
+		color: #2d3559;
+		font-size: 24px;
+		margin-bottom: 16px
+	}
+
+	.jcrop-holder {
+		margin: 0 auto;
+		img {
+		max-width: initial
+		}
+	}
+}
+
+.tgwcfb-recaptcha-container {
+	display: block;
+	width: 100%;
+}
+
+#separate_shipping_field #separate_shipping {
+	width: auto;
+	margin-right: 10px;
+}

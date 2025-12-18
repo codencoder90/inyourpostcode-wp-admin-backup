@@ -1,0 +1,383 @@
+/**
+ * Frontend Artwork Grid CSS
+ * 
+ * Purpose: Beautiful grid layout for My Artwork tab
+ * My Artwork tab کے لیے beautiful grid design
+ * 
+ * @package CustomizeDesignByTechXanders
+ * @version 1.0
+ */
+
+/* ============================================================================
+   ARTWORK TAB CONTAINER
+   ============================================================================ */
+
+.cdbt-artwork-container {
+    padding: 20px;
+    background: #fff;
+    min-height: 400px;
+}
+
+.cdbt-artwork-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.cdbt-artwork-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cdbt-artwork-count {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* ============================================================================
+   ARTWORK GRID LAYOUT
+   ============================================================================ */
+
+.cdbt-artwork-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.cdbt-artwork-item {
+    position: relative;
+    aspect-ratio: 1;
+    background: #f8f9fa;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cdbt-artwork-item:hover {
+    border-color: #007cba;
+    box-shadow: 0 4px 12px rgba(0, 124, 186, 0.15);
+    transform: translateY(-2px);
+}
+
+.cdbt-artwork-item.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    filter: grayscale(50%);
+}
+
+.cdbt-artwork-item.disabled:hover {
+    border-color: #e0e0e0;
+    box-shadow: none;
+    transform: none;
+}
+
+.cdbt-artwork-item.selected {
+    border-color: #00a32a;
+    border-width: 3px;
+    box-shadow: 0 0 0 3px rgba(0, 163, 42, 0.2);
+}
+
+/* ============================================================================
+   ARTWORK IMAGE
+   ============================================================================ */
+
+.cdbt-artwork-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* ============================================================================
+   ARTWORK OVERLAY
+   ============================================================================ */
+
+.cdbt-artwork-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: #fff;
+    padding: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cdbt-artwork-item:hover .cdbt-artwork-overlay {
+    opacity: 1;
+}
+
+.cdbt-artwork-title {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cdbt-artwork-info {
+    font-size: 11px;
+    opacity: 0.9;
+    margin-top: 4px;
+}
+
+/* ============================================================================
+   CLICK INDICATOR
+   ============================================================================ */
+
+.cdbt-artwork-click-hint {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 124, 186, 0.95);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+}
+
+.cdbt-artwork-item:hover .cdbt-artwork-click-hint {
+    opacity: 1;
+}
+
+.cdbt-artwork-item.selected .cdbt-artwork-click-hint {
+    background: rgba(0, 163, 42, 0.95);
+}
+
+.cdbt-artwork-item.disabled .cdbt-artwork-click-hint {
+    display: none;
+}
+
+/* ============================================================================
+   SELECTED BADGE
+   ============================================================================ */
+
+.cdbt-artwork-selected-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #00a32a;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    display: none;
+}
+
+.cdbt-artwork-item.selected .cdbt-artwork-selected-badge {
+    display: block;
+}
+
+/* ============================================================================
+   EMPTY STATE
+   ============================================================================ */
+
+.cdbt-artwork-empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+}
+
+.cdbt-artwork-empty-icon {
+    font-size: 64px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.cdbt-artwork-empty-message {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cdbt-artwork-empty-hint {
+    font-size: 14px;
+    color: #999;
+}
+
+/* ============================================================================
+   LOADING STATE
+   ============================================================================ */
+
+.cdbt-artwork-loading {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+}
+
+.cdbt-artwork-loader {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e0e0e0;
+    border-top-color: #007cba;
+    border-radius: 50%;
+    animation: cdbt-spin 0.8s linear infinite;
+    margin: 0 auto 15px;
+}
+
+@keyframes cdbt-spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ============================================================================
+   RESPONSIVE DESIGN - MOBILE
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    .cdbt-artwork-container {
+        padding: 15px;
+    }
+    
+    .cdbt-artwork-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+    }
+    
+    .cdbt-artwork-title {
+        font-size: 12px;
+    }
+    
+    .cdbt-artwork-info {
+        font-size: 10px;
+    }
+    
+    .cdbt-artwork-click-hint {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cdbt-artwork-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .cdbt-artwork-item {
+        border-radius: 6px;
+    }
+    
+    .cdbt-artwork-overlay {
+        padding: 8px;
+    }
+}
+
+/* ============================================================================
+   DISABLED STATE MESSAGE
+   ============================================================================ */
+
+.cdbt-artwork-disabled-message {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #856404;
+    font-size: 14px;
+    display: none;
+}
+
+.cdbt-artwork-disabled-message.active {
+    display: block;
+}
+
+.cdbt-artwork-disabled-message strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+/* ============================================================================
+   TAB STYLING (if needed)
+   ============================================================================ */
+
+.cdbt-tabs {
+    display: flex;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.cdbt-tab {
+    padding: 12px 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.cdbt-tab:hover {
+    color: #007cba;
+    background: #f6f7f7;
+}
+
+.cdbt-tab.active {
+    color: #007cba;
+    border-bottom-color: #007cba;
+    background: transparent;
+}
+
+/* ============================================================================
+   ARTWORK ACTIONS (inside grid item)
+   ============================================================================ */
+
+.cdbt-artwork-actions {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cdbt-artwork-item:hover .cdbt-artwork-actions {
+    opacity: 1;
+}
+
+.cdbt-artwork-action-btn {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cdbt-artwork-action-btn:hover {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================================================================
+   PRINT STYLES (optional)
+   ============================================================================ */
+
+@media print {
+    .cdbt-artwork-overlay,
+    .cdbt-artwork-click-hint,
+    .cdbt-artwork-actions {
+        display: none !important;
+    }
+    
+    .cdbt-artwork-item {
+        break-inside: avoid;
+    }
+}

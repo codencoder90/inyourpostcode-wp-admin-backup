@@ -1,0 +1,9 @@
+export { default as registerDefaultDisplayNameBlock } from './displayname';
+export { default as registerDefaultEmailBlock } from './email';
+export { default as registerDefaultFirstnameBlock } from './firstname';
+export { default as registerDefaultLastnameBlock } from './lastname';
+export { default as registerDefaultNicknameBlock } from './nickname';
+export { default as registerDefaultPasswordBlock } from './password';
+export { default as registerDefaultUserBioBlock } from './userbio';
+export { default as registerDefaultUsernameBlock } from './username';
+export { default as registerDefaultWebsiteBlock } from './website';

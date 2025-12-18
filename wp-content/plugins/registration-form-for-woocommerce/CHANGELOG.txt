@@ -1,0 +1,45 @@
+== Changelog ==
+
+= 1.0.9       - 09-07-2025 =
+* Fix         - Missing states for the selected country in the shipping and billing fields.
+
+= 1.0.8       - 26-05-2025 =
+* Tweak       - Support for first name and last name smart tags.
+* Fix         - Single-option selection support added.
+* Fix         - Test emails were not being sent, and content appeared blank.
+* Fix         - "Save Changes" button was not updating after editing email content.
+
+= 1.0.7       - 29-04-2025 =
+* Dev         - File upload field dependency.
+* Fix         - First name and last name field values were not saved when grouped.
+* Fix         - Dynamic properties compatibility issue for PHP versions greater than 8.
+
+= 1.0.6       - 03-03-2025 =
+* Feature     - hCaptcha integration.
+* Tweak       - Lock icon on one-time draggable fields.
+* Fix         - Postcode/ZIP and state/country fields not being populated.
+
+= 1.0.5       - 03-02-2025 =
+* Fix         - Duplicate count variable declaration.
+
+= 1.0.4       - 19-12-2024 =
+* Feature     - Added reCAPTCHA V3 integration.
+* Enhancement - Listed premium field with popup.
+* Fix         - Template override compatibility issue with WooCommerce.
+
+= 1.0.3.1 - 23-10-2024 =
+* Fix 	  - Stable tag and typos in readme.txt.
+
+= 1.0.3   - 23-10-2024 =
+* Feature - Change recipient for admin email.
+* Fix     - Deactivate free version if the pro version is activated.
+
+= 1.0.2 - 10-07-2024 =
+* Tweak - Changed readme txt.
+
+= 1.0.1 - 24-05-2024 =
+* Tweak - Tag Changed.
+* Fix 	- Numbering of screenshot.
+
+= 1.0.0 - 22-05-2024 =
+* Initial release

@@ -1,0 +1,15 @@
+export { default as registerCustomCheckboxBlock } from './checkbox';
+export { default as registerCustomDatePickerBlock } from './date-picker';
+export { default as registerCustomEmailBlock } from './email';
+export { default as registerCustomInputBlock } from './input';
+export { default as registerCustomMultiSelectBlock } from './multi-select';
+export { default as registerCustomNumberBlock } from './number';
+export { default as registerCustomPhoneBlock } from './phone';
+export { default as registerCustomProfilePictureBlock } from './profile-picture';
+export { default as registerCustomRadioBlock } from './radio';
+export { default as registerCustomRangeBlock } from './range';
+export { default as registerCustomSelectBlock } from './select';
+export { default as registerCustomTextareaBlock } from './textarea';
+export { default as registerCustomTimePickerBlock } from './time-picker';
+export { default as registerCustomUserRolesBlock } from './user-roles';
+export { default as registerCustomFileUploadBlock } from './file-upload';

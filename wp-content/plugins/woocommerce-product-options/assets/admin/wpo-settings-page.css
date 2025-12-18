@@ -1,0 +1,73 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./assets/scss/admin/components/_button-dropdown.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.button-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+.button-dropdown-container > a.button {
+  padding-right: 0;
+}
+.button-dropdown-container > a.button::after {
+  content: "\f140";
+  font-family: dashicons;
+  font-size: 24px;
+  line-height: 12px;
+  margin: 0 0.1em 0 0.25em;
+  vertical-align: -7px;
+  border-left: 1px solid #2271b1;
+}
+.button-dropdown-container .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f6f7f7;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid #c3c4c7;
+  border-radius: 3px;
+}
+.button-dropdown-container .dropdown-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.button-dropdown-container .dropdown-menu li {
+  padding: 6px 8px;
+  cursor: pointer;
+  color: #2271b1;
+  position: relative;
+  margin: 0;
+}
+.button-dropdown-container .dropdown-menu li:hover {
+  background-color: #2271b1;
+  color: #fff;
+}
+.button-dropdown-container .dropdown-menu li.has-sub-menu {
+  position: relative;
+}
+.button-dropdown-container .dropdown-menu li.has-sub-menu::after {
+  content: "\f139";
+  font-family: dashicons;
+  font-size: 24px;
+  line-height: 12px;
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+.button-dropdown-container .sub-menu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  min-width: 120px;
+  top: -1px;
+  background-color: #f6f7f7;
+  border: 1px solid #c3c4c7;
+  border-radius: 3px;
+}
+.button-dropdown-container .dropdown-menu li:hover > .sub-menu {
+  display: block;
+}
+
+/*# sourceMappingURL=wpo-settings-page.css.map*/

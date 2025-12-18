@@ -1,0 +1,187 @@
+/* Admin Styles for Customize Design By Techxanders */
+
+#customize_design_product_data {
+    padding: 20px;
+}
+
+#customize_design_product_data h4 {
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #23282d;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.cdbt_frame_size_row {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.cdbt_frame_size_row .form-field {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    vertical-align: top;
+}
+
+.cdbt_frame_size_row .form-field:last-child {
+    width: auto;
+    margin-right: 0;
+}
+
+.cdbt_frame_size_row input[type="text"],
+.cdbt_frame_size_row input[type="number"] {
+    width: 100%;
+}
+
+.cdbt_remove_frame_size {
+    background: #dc3232;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cdbt_remove_frame_size:hover {
+    background: #a00;
+}
+
+#cdbt_add_frame_size {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#cdbt_add_frame_size:hover {
+    background: #005a87;
+}
+
+#cdbt_selected_photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cdbt_photo_preview {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cdbt_photo_preview img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+}
+
+.cdbt_remove_photo {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #dc3232;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cdbt_remove_photo:hover {
+    background: #a00;
+}
+
+#cdbt_select_photos {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#cdbt_select_photos:hover {
+    background: #005a87;
+}
+
+/* Order customization display */
+.cdbt-order-customizations {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cdbt-order-customizations h3 {
+    margin-top: 0;
+    color: #23282d;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
+
+.cdbt-order-item-customization {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cdbt-order-item-customization h4 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+.cdbt-order-item-customization img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cdbt-uploaded-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cdbt-uploaded-images img {
+    max-width: 100px !important;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cdbt-order-item-meta {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #0073aa;
+}
+
+.cdbt-order-item-meta img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

@@ -1,0 +1,13 @@
+# Ignore sensitive config
+wp-config.php
+
+# Ignore cache/backups
+wp-content/cache/
+wp-content/ai1wm-backups/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log

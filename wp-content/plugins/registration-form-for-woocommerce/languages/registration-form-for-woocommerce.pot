@@ -1,0 +1,1180 @@
+# Copyright (C) 2024 ThemeGrill
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Registration Form For WooCommerce 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/registration-form-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-10T11:11:20+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: registration-form-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Registration Form For WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Drag and drop WooCommerce registration form builder."
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeGrill"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themegrill.com/"
+msgstr ""
+
+#: includes/Admin.php:62
+msgid "User Status"
+msgstr ""
+
+#: includes/Admin.php:79
+#: includes/Admin.php:119
+msgid "Approved"
+msgstr ""
+
+#: includes/Admin.php:80
+#: includes/Admin.php:120
+msgid "Pending"
+msgstr ""
+
+#: includes/Admin.php:81
+msgid "Denied"
+msgstr ""
+
+#: includes/Admin.php:107
+msgid "Extra Information"
+msgstr ""
+
+#: includes/Admin.php:112
+msgid "User status"
+msgstr ""
+
+#: includes/Admin.php:116
+#: includes/Admin.php:152
+#: assets/js/build/blocks.js:1
+msgid "Select"
+msgstr ""
+
+#: includes/Admin.php:121
+#: includes/Admin.php:417
+msgid "Deny"
+msgstr ""
+
+#: includes/Admin.php:334
+msgctxt "The action on users list page"
+msgid "Resend Verification"
+msgstr ""
+
+#: includes/Admin.php:335
+msgctxt "The action on users list page"
+msgid "Approve"
+msgstr ""
+
+#: includes/Admin.php:336
+msgctxt "The action on users list page"
+msgid "Deny"
+msgstr ""
+
+#: includes/Admin.php:371
+msgid "Verification Email Sent Successfully !!"
+msgstr ""
+
+#: includes/Admin.php:416
+msgid "Approve"
+msgstr ""
+
+#: includes/Ajax.php:65
+msgid "Invalid file type, please contact with site administrator."
+msgstr ""
+
+#. translators: %s - Min Size
+#: includes/Ajax.php:85
+msgid "Please upload a picture with size more than %s"
+msgstr ""
+
+#. translators: %s - Max Size
+#: includes/Ajax.php:92
+msgid "Please upload a picture with size less than %s"
+msgstr ""
+
+#: includes/Ajax.php:102
+msgid "Upload path permission deny."
+msgstr ""
+
+#: includes/Blocks.php:129
+msgid "Default Fields"
+msgstr ""
+
+#: includes/Blocks.php:133
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/Blocks.php:137
+msgid "WooCommerce Billing Address"
+msgstr ""
+
+#: includes/Blocks.php:141
+msgid "WooCommerce Shipping Address"
+msgstr ""
+
+#: includes/Email.php:49
+msgid "Admin Email"
+msgstr ""
+
+#: includes/Email.php:50
+msgid "Email sent to the admin when a new user registers"
+msgstr ""
+
+#: includes/Email.php:54
+#: includes/Email.php:55
+msgid "New user registration"
+msgstr ""
+
+#: includes/Email.php:56
+msgid ""
+"Hi Admin, <br/>\r\n"
+"\r\n"
+"A new user {{username}} - {{email}} has successfully registered to your site <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\r\n"
+"\r\n"
+"Please review the user role and details at <b>Users</b> menu in your WP dashboard. <br/>\r\n"
+"\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Email.php:113
+msgid "Content"
+msgstr ""
+
+#: includes/Email.php:116
+msgid "Email content. Available placeholders: {{username}}, {{email}}, {{home_url}}, {{blog_info}}, {{all_fields}}, {{verification_link}}"
+msgstr ""
+
+#: includes/FormHandler.php:193
+#: includes/FormHandler.php:196
+msgid "Google reCAPTCHA verification failed, please try again later."
+msgstr ""
+
+#: includes/FormHandler.php:202
+msgid "Status"
+msgstr ""
+
+#: includes/FormHandler.php:467
+#: includes/PostType.php:277
+msgid "Registration complete, wait until admin approves your registration"
+msgstr ""
+
+#: includes/FormHandler.php:468
+msgid "User registered. Verify your email by clicking on the link sent to your email."
+msgstr ""
+
+#: includes/FormHandler.php:517
+msgid "Username already exists."
+msgstr ""
+
+#. Translators: Label
+#: includes/FormHandler.php:528
+msgid "%s is not valid."
+msgstr ""
+
+#. Translators: Label
+#: includes/FormHandler.php:534
+msgid "%s is required."
+msgstr ""
+
+#: includes/Install.php:66
+msgid "Default form"
+msgstr ""
+
+#: includes/PostType.php:69
+#: includes/PostType.php:70
+#: includes/PostType.php:78
+#: includes/PostType.php:79
+#: assets/js/build/blocks.js:1
+msgid "Settings"
+msgstr ""
+
+#: includes/PostType.php:111
+msgid "Forms"
+msgstr ""
+
+#: includes/PostType.php:112
+msgid "Form"
+msgstr ""
+
+#: includes/PostType.php:113
+msgctxt "Admin menu name"
+msgid "Registration Form"
+msgstr ""
+
+#: includes/PostType.php:114
+msgid "All forms"
+msgstr ""
+
+#: includes/PostType.php:115
+msgid "Add form"
+msgstr ""
+
+#: includes/PostType.php:116
+msgid "Add new form"
+msgstr ""
+
+#: includes/PostType.php:117
+msgid "Edit"
+msgstr ""
+
+#: includes/PostType.php:118
+#: includes/Preview.php:87
+msgid "Edit form"
+msgstr ""
+
+#: includes/PostType.php:119
+msgid "New form"
+msgstr ""
+
+#: includes/PostType.php:120
+msgid "View forms"
+msgstr ""
+
+#: includes/PostType.php:121
+msgid "View form"
+msgstr ""
+
+#: includes/PostType.php:122
+msgid "Search forms"
+msgstr ""
+
+#: includes/PostType.php:123
+msgid "No forms found"
+msgstr ""
+
+#: includes/PostType.php:124
+msgid "No forms found in trash"
+msgstr ""
+
+#: includes/PostType.php:125
+msgid "Parent form"
+msgstr ""
+
+#: includes/PostType.php:196
+msgid "Shortcode"
+msgstr ""
+
+#: includes/PostType.php:215
+msgid "Copy shortcode!"
+msgstr ""
+
+#: includes/PostType.php:291
+msgid "Your account is still pending approval"
+msgstr ""
+
+#: includes/PostType.php:302
+msgid "Your account has been denied"
+msgstr ""
+
+#: includes/PostType.php:324
+#: includes/templates/form-login.php:60
+#: includes/templates/form-login.php:97
+#: includes/templates/form-registration.php:28
+msgid "Register"
+msgstr ""
+
+#: includes/PostType.php:370
+msgid "Copy shortcode !"
+msgstr ""
+
+#: includes/PostType.php:370
+msgid "Copied !"
+msgstr ""
+
+#. translators: %s - Form name.
+#: includes/Preview.php:142
+msgid "%s &ndash; Preview"
+msgstr ""
+
+#: includes/ScriptStyle.php:106
+msgid "Uploading..."
+msgstr ""
+
+#: includes/ScriptStyle.php:107
+msgid "Something went wrong, please try again"
+msgstr ""
+
+#: includes/ScriptStyle.php:108
+msgid "Crop Your Picture"
+msgstr ""
+
+#: includes/ScriptStyle.php:109
+msgid "Crop picture"
+msgstr ""
+
+#: includes/ScriptStyle.php:110
+msgid "Permission error"
+msgstr ""
+
+#: includes/ScriptStyle.php:111
+msgid "Cancel"
+msgstr ""
+
+#: includes/ScriptStyle.php:112
+msgid "Ok"
+msgstr ""
+
+#: includes/Shortcode.php:61
+#: includes/WooCommerceRegistrationFormBuilder.php:167
+msgid "WooCommerce is required for this plugin to work. Please, activate WooCommerce first."
+msgstr ""
+
+#. Translators: 1: Current user display name 2: Logout URL
+#: includes/Shortcode.php:71
+msgid "You are currently logged in as %1$1s. %2$2s"
+msgstr ""
+
+#. Translators: 1: Current user display name 2: Logout URL
+#: includes/Shortcode.php:71
+msgid "Log out of this account."
+msgstr ""
+
+#. Translators: 1: Current user display name 2: Logout URL
+#: includes/Shortcode.php:71
+msgid "Logout"
+msgstr ""
+
+#: includes/Sync.php:363
+#: includes/Sync.php:535
+#: includes/Sync.php:538
+msgid "Additional Information"
+msgstr ""
+
+#: includes/Sync.php:382
+msgid "Profile Details Changed Email"
+msgstr ""
+
+#: includes/Sync.php:383
+msgid "Email sent to the admin when a user profile details is changed"
+msgstr ""
+
+#: includes/Sync.php:384
+#: includes/Sync.php:385
+msgid "Profile Details Changed"
+msgstr ""
+
+#: includes/Sync.php:386
+msgid ""
+"User has changed profile information for the following account:<br/>\r\n"
+"\r\n"
+"SiteName: {{blog_info}} <br/>\r\n"
+"Username: {{username}} <br/>\r\n"
+"\r\n"
+"{{all_fields}}\r\n"
+"<br/>\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Sync.php:402
+msgid "Awaiting Registration Approval Email"
+msgstr ""
+
+#: includes/Sync.php:403
+msgid "Email sent to the customer when customer register and approval is required"
+msgstr ""
+
+#: includes/Sync.php:404
+#: includes/Sync.php:405
+msgid "Awaiting Registration Approval"
+msgstr ""
+
+#: includes/Sync.php:407
+msgid ""
+"Hi {{username}}, <br/>\r\n"
+"\r\n"
+"You have registered on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\r\n"
+"\r\n"
+"Please wait until the site admin approves your registration. You will be notified after it is approved. <br/>\r\n"
+"\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Sync.php:422
+msgid "Registration Pending Email"
+msgstr ""
+
+#: includes/Sync.php:423
+msgid "Email sent to the customer when admin changes user status to pending"
+msgstr ""
+
+#: includes/Sync.php:424
+#: includes/Sync.php:425
+msgid "Registration Pending"
+msgstr ""
+
+#: includes/Sync.php:427
+msgid ""
+"Hi {{username}}, <br/>\r\n"
+"\r\n"
+"Your registration on <a href=\"{{home_url}}\">{{blog_info}}</a> has been changed to pending. <br/>\r\n"
+"\r\n"
+"Sorry for the inconvenience. <br/>\r\n"
+"\r\n"
+"You will be notified after it is approved. <br/>\r\n"
+"\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Sync.php:444
+msgid "Registration Approved Email"
+msgstr ""
+
+#: includes/Sync.php:445
+msgid "Email sent to the customer when admin approves account"
+msgstr ""
+
+#: includes/Sync.php:446
+#: includes/Sync.php:447
+msgid "Registration Approved"
+msgstr ""
+
+#: includes/Sync.php:449
+msgid ""
+"Hi {{username}}, <br/>\r\n"
+"\r\n"
+"Your registration on <a href=\"{{home_url}}\">{{blog_info}}</a>  has been approved. <br/>\r\n"
+"\r\n"
+"Please visit <b>My Account</b> page to edit your account details and create your user profile on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\r\n"
+"\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Sync.php:464
+msgid "Registration Denied Email"
+msgstr ""
+
+#: includes/Sync.php:465
+msgid "Email sent to the customer when admin disapproves account"
+msgstr ""
+
+#: includes/Sync.php:466
+#: includes/Sync.php:467
+msgid "Registration Denied"
+msgstr ""
+
+#: includes/Sync.php:469
+msgid ""
+"Hi {{username}}, <br/>\r\n"
+"\r\n"
+"You have registered on <a href=\"{{home_url}}\">{{blog_info}}</a>. <br/>\r\n"
+"\r\n"
+"Unfortunately your registration is denied. Sorry for the inconvenience. <br/>\r\n"
+"\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Sync.php:485
+#: includes/Sync.php:487
+#: includes/Sync.php:488
+msgid "Email confirmation"
+msgstr ""
+
+#: includes/Sync.php:486
+msgid "Email sent to the customer after registration and email confirmation is required"
+msgstr ""
+
+#: includes/Sync.php:490
+msgid ""
+"Hi {{username}}, <br/>\r\n"
+"\r\n"
+"Your have registered on <a href=\"{{home_url}}\">{{blog_info}}</a>.<br/>\r\n"
+"\r\n"
+"Please click on this verification link {{verification_link}} to confirm registration.\r\n"
+"\r\n"
+"Thank You!"
+msgstr ""
+
+#: includes/Sync.php:543
+msgid "Field"
+msgstr ""
+
+#: includes/Sync.php:544
+msgid "Value"
+msgstr ""
+
+#: includes/templates/form-billing.php:18
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: includes/templates/form-billing.php:20
+msgid "Billing details"
+msgstr ""
+
+#: includes/templates/form-billing.php:39
+msgid "Create an account?"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:40
+#: assets/js/build/blocks.js:1
+msgid "First name"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:44
+#: assets/js/build/blocks.js:1
+msgid "Last name"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:50
+#: assets/js/build/blocks.js:1
+msgid "Display name"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:51
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:56
+#: includes/templates/form-login.php:78
+#: assets/js/build/blocks.js:1
+msgid "Email address"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:61
+msgid "Password change"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:64
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:68
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:72
+msgid "Confirm new password"
+msgstr ""
+
+#: includes/templates/form-edit-account.php:82
+#: assets/js/build/admin-settings.js:2
+msgid "Save changes"
+msgstr ""
+
+#: includes/templates/form-login.php:33
+msgid "Login"
+msgstr ""
+
+#: includes/templates/form-login.php:37
+msgid "Username or email address"
+msgstr ""
+
+#: includes/templates/form-login.php:41
+#: includes/templates/form-login.php:83
+#: assets/js/build/blocks.js:1
+msgid "Password"
+msgstr ""
+
+#: includes/templates/form-login.php:47
+msgid "Remember me"
+msgstr ""
+
+#: includes/templates/form-login.php:50
+msgid "Log in"
+msgstr ""
+
+#: includes/templates/form-login.php:53
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/templates/form-login.php:73
+#: assets/js/build/blocks.js:1
+msgid "Username"
+msgstr ""
+
+#: includes/templates/form-login.php:87
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: includes/WooCommerceRegistrationFormBuilder.php:68
+#: includes/WooCommerceRegistrationFormBuilder.php:78
+msgid "Cheatin&#8217"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Goggle reCaptcha v2 settings"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Get site key and secret key from "
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Site key"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Secret key"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Replace WooCommerce registration form"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Replace default WooCommerce registration form in My Account page. Allow registration in My Account page via "
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "no title"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Checkout form"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+#: assets/js/build/blocks.js:1
+msgid "You are currently using the free version of our plugin. Please upgrade to premium version to use this feature."
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Sync Settings"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "General Settings"
+msgstr ""
+
+#: assets/js/build/admin-settings.js:2
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Label"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Label cannot be empty!"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Placeholder"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Hide label"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Required"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Description"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Field width"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Custom CSS class(es)"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Separate multiple classes with spaces."
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Select a country / region…"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Select an option…"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Select user roles"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Minimum value"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Maximum value"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Step"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Choose valid file types allowed for upload"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Valid file types"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Select all"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Max file size allowed"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Enter the max file size, in megabytes, to allow. If left blank, the value defaults to the maximum size the server allows which is "
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Read only"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Select roles"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Show in order"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Redirect URL"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Redirect to certain url after successful registration"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Form submit button text"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "reCaptcha v2 support"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Enable Captcha for strong security from spams and bots, setup "
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Google reCaptcha Settings"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "User approval option"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Assign user role"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Auto assign role to registered users through this form, if enabled it will ignore the User Role field"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Generating preview…"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Preview in new tab"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Username field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "username"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Enter label"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Label is required"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Enter description"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Email"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Email field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Password field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "password"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "First Name"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "First name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Last Name"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Last name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Display Name"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Display name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "display name"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Nickname"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Nickname field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Website"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Website field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "website"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "url"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "User Bio"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "User bio field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "User bio"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Billing first name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "firstname"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Billing last name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "lastname"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Company"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Billing company field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "company"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Country / Region"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "country region"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "billing"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Country"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street Address 1"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street address 1 field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "street address 1"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street address 1"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street Address 2"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street address 2 field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "street address 2"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street address 2"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Town / City"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Town city field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "town city"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "City"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "State"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "State field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "state"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Zip Code"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Zip code field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "zip code"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "postal code"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Zip code"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Phone"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Billing phone field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "phone"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "email"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Separate Shipping"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Separate shipping field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "separate shipping"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Ship to different address"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Shipping first name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Shipping last name field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Shipping company field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "shipping"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street Address"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street address field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "street address"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Street address"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Shipping phone field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Secondary Email"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Secondary email field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Secondary Email address"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Input"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Input field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "input"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Textarea"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Textarea field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "textarea"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Number"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Number field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "number"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Checkbox"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Checkbox field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "checkbox"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Option 1"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Option 2"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Write option…"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Add option"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Radio"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Radio field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "radio"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "Select field for WC registration form"
+msgstr ""
+
+#: assets/js/build/blocks.js:1
+msgid "select"
+msgstr ""

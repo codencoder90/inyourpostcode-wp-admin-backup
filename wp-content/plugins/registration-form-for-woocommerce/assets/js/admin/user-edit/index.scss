@@ -1,0 +1,11 @@
+.tgwcfb-range {
+	display: flex;
+
+	input[type="range"] {
+		flex-grow: 1;
+	}
+
+	input[type="number"] {
+		width: 80px;
+	}
+}

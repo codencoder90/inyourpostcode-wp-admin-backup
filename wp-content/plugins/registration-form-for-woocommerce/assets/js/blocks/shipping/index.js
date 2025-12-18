@@ -1,0 +1,10 @@
+export { default as registerShippingCompanyBlock } from './company';
+export { default as registerShippingCountryRegionBlock } from './country-region';
+export { default as registerShippingFirstnameBlock } from './firstname';
+export { default as registerShippingLastnameBlock } from './lastname';
+export { default as registerShippingPhoneBlock } from './phone';
+export { default as registerShippingStateBlock } from './state';
+export { default as registerShippingStreetAddress1Block } from './street-address-1';
+export { default as registerShippingStreetAddress2Block } from './street-address-2';
+export { default as registerShippingTownCityBlock } from './town-city';
+export { default as registerShippingZipCodeBlock } from './zip-code';

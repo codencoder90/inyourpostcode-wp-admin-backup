@@ -1,0 +1,2628 @@
+# Copyright (C) 2025 Barn2 Plugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Options 2.5.0\n"
+"Report-Msgid-Bugs-To: https://barn2.com/support-center/\n"
+"Last-Translator: Barn2 Plugins <support@barn2.com>\n"
+"Language-Team: Barn2 Plugins <support@barn2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-07T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: woocommerce-product-options\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-product-options.php
+msgid "WooCommerce Product Options"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-product-options.php
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-options/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-product-options.php
+msgid "Add extra options to your WooCommerce products, with over 14 option types, optional fees for each option, min/max quantities, and conditional logic."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-product-options.php
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-product-options.php
+msgid "https://barn2.com"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:154
+msgid "[View page]"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_API_Helper.php:615
+#: dependencies/barn2/barn2-lib/src/WooCommerce/Admin/Custom_Settings_Fields.php:138
+msgid "Size"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Documentation"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Admin/Settings_Util.php:70
+msgid "Support"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:38
+#: src/Admin/Settings_Tab/General.php:43
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:54
+msgid "View %s documentation"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Admin_Links.php:55
+msgid "Docs"
+msgstr ""
+
+#. translators: 1: licence key link start, 2: license key link end
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:155
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Admin/Plugin_Updater.php:210
+msgid "Auto-updates unavailable."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "License key successfully activated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:59
+msgid "There was an error activating your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully deactivated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "The license key looks good!"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "There's a problem with your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:108
+msgid "License key"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:110
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:113
+msgid "License Key"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Check"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Activate"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:132
+msgid "Deactivate"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Key_Setting.php:140
+msgid "License key deactivated."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:84
+msgid "Thank you for installing %1$s. To get started, please %2$s enter your license key%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:109
+msgid "Your license key for %1$s has expired. %2$sClick here to renew for 20%% discount%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:134
+msgid "You no longer have a valid license for %1$s. Please %2$spurchase a new license key%3$s to continue using the plugin."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Admin/License_Notices.php:162
+msgid "%1$s - your site has moved to a new domain. Please %2$sreactivate your license key%3$s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/EDD_Licensing.php:170
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:93
+msgid "Your license key is active."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:115
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:393
+msgid "Your license key is invalid."
+msgstr ""
+
+#. translators: 1: account page link start, 2: account page link end
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:337
+msgid "Invalid license key - please check your order confirmation email or %1$sAccount%2$s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:343
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:346
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:349
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:353
+msgid "Your license key is not valid for this plugin."
+msgstr ""
+
+#. translators: %s: The number of sites the license is activated on
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:359
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: The sites active description, e.g. '2 sites active'
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:362
+msgid "Your license key has reached its activation limit (%s)."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:363
+#: dependencies/barn2/barn2-lib/src/Util.php:35
+msgid "Read more"
+msgstr ""
+
+#. translators: support for RTL, 1: the license error, 2: a link
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:365
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:383
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: The license expiry date
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:378
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:381
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:584
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:588
+msgid "Your license key has expired."
+msgstr ""
+
+#. translators: 1: purchase link start, 2: purchase link end.
+#: dependencies/barn2/barn2-lib/src/Plugin/License/Plugin_License.php:594
+msgid "Your license key has been disabled. Please %1$spurchase a new license key%2$s to continue using the plugin."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: PHP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:103
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:112
+msgid "%1$s requires PHP %2$s or greater. Please update the PHP version used by your web server."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:136
+msgid "%1$s requires WordPress %2$s or greater. Please update your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: Update Core <a> tag open. %3$s: <a> tag close. %4$s: WP version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:146
+msgid "%1$s requires WordPress %4$s or greater. Please %2$supdate%3$s your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:169
+msgid "%1$s requires WooCommerce to be installed and active."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s Install/Upgrade/Activate WooCommerce link.
+#. translators: %1$s: Plugin name. %2$s: EDD link. %3$s Install/Upgrade/Activate EDD link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:175
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:224
+msgid "%1$s requires %2$s to be installed and active.%3$s"
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce version required.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:189
+msgid "%1$s requires WooCommerce %2$s or greater. Please update your WooCommerce setup first."
+msgstr ""
+
+#. translators: %1$s: Plugin name. %2$s: WooCommerce link. %3$s WooCommerce version required. %4$s Install/Upgrade/Activate WooCommerce link.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:195
+msgid "%1$s requires %2$s %3$s or greater. Please %4$s your WooCommerce setup first."
+msgstr ""
+
+#. translators: %1$s: Plugin name.
+#: dependencies/barn2/barn2-lib/src/Plugin/Requirements.php:218
+msgid "%1$s requires Easy Digital Downloads to be installed and active."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Plugin/Simple_Plugin.php:102
+msgid "%1$s could not complete its first activation because the following error occurred:<br>%2$s"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+msgid "%1$s database update required"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+msgid "<p>%1$s has been updated! To keep things running smoothly, we have to update your database to the newest version. The database update process runs in the background and may take a little while, so please be patient.</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+msgid "%1$s database update done"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:102
+msgid "<p>%1$s database update complete. Thank you for updating to the latest version!</p>"
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:288
+msgid "You do not have sufficient permissions to perform this action."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Service/Updater.php:292
+msgid "An upgrade is already in progress. Please wait until it completes."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Util.php:549
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: dependencies/barn2/barn2-lib/src/Util.php:574
+msgid "You don't have permission to activate the plugin."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:151
+msgid "Could not find the appropriate step."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:196
+msgid "Please enter a license key."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Api.php:199
+msgid "Invalid action requested."
+msgstr ""
+
+#. translators: %s: The name of the plugin.
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:344
+msgid "%s setup wizard"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:434
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:507
+msgid "Warning: This will overwrite your existing settings for %s. Are you sure you want to continue?"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:484
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:492
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:541
+msgid "Setup wizard"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Setup_Wizard.php:487
+msgid "If you need to access the setup wizard again, please click on the button below."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:23
+msgid "More"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:24
+msgid "Extra features"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Cross_Selling.php:25
+msgid "Enhance your site with these fantastic plugins from Barn2."
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:23
+#: src/Admin/Wizard/Steps/Completed.php:21
+msgid "Ready"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Ready.php:24
+msgid "Setup Complete"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome.php:25
+#: dependencies/barn2/setup-wizard/src/Steps/Welcome_Free.php:24
+#: src/Admin/Wizard/Steps/License_Verification.php:21
+msgid "Welcome"
+msgstr ""
+
+#: dependencies/barn2/setup-wizard/src/Util.php:28
+#: src/Fields/Select.php:40
+#: src/Fields/Select.php:41
+#: src/Fields/Select.php:73
+#: assets/js/modules/attribute-options.js:1
+#: assets/js/modules/dropdown.js:1
+msgid "Select an option"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:87
+msgid "Security error"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:88
+msgid "The authorization to perform this action expired. Please reload the page and try again"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:123
+msgid "Permission error"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:124
+msgid "You do not have permission to install plugins."
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:140
+msgid "Already installed"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:141
+msgid "The WooCommerce Live Preview plugin is already installed."
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:172
+msgid "License error"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:173
+msgid "Your license doesn't include WooCommerce Live Preview. Please go to the settings page and check your license. Then try again."
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:191
+msgid "Successfully installed"
+msgstr ""
+
+#. translators: %s is the link to the product options page
+#: src/Admin/Admin_Controller.php:194
+msgid "The WooCommerce Live Preview plugin has been successfully installed. Now go to %s and enable live preview for each option that you wish to use it for."
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:195
+#: src/Admin/Settings_Page.php:164
+#: src/Admin/Settings_Page.php:165
+#: src/Admin/Settings_Page.php:182
+#: src/Admin/Settings_Tab/Product_Options.php:41
+#: src/Plugin_Setup.php:121
+msgid "Product Options"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:210
+msgid "Installation error"
+msgstr ""
+
+#. translators: %s is the link to the downloads page
+#: src/Admin/Admin_Controller.php:215
+msgid "An error occurred while installing or activating WooCommerce Live Preview (Error code: %1$s).<br>Please reload the page and try again. If the error persists, please go to your %2$s and try to manually install the plugin."
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:217
+msgid "Barn2 downloads page"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:399
+msgid "Product Attributes"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:403
+msgid "Invetory properties"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:407
+msgid "Shipping properties"
+msgstr ""
+
+#: src/Admin/Attribute_Term.php:106
+msgid "The attribute has associated attribute based options in <strong>WooCommerce Product Options</strong>, however this term is not configured. Please configure the term in the following options: <br/><br/> %s"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:81
+msgid "PHP Intl extension required"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:82
+msgid "The PHP Intl extension is required for the WooCommerce Product Options plugin to work correctly. Please ask your hosting provider to enable this extension."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:92
+#: src/Admin/Settings_Page.php:99
+msgid "Install WooCommerce Live Preview"
+msgstr ""
+
+#. translators: %s: Link to install the bonus plugin.
+#: src/Admin/Settings_Page.php:95
+msgid "Thanks for adding the Live Preview add-on to WooCommerce Product Options. Please install it and then enable it on the product options that you wish to use it for. %s"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:214
+msgid "This tab doesn't exist."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:62
+msgid "General"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:65
+msgid "The following options control the WooCommerce Product Options extension."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:104
+msgid "Settings saved."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:117
+msgid "Uninstall"
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:120
+msgid "The following options control the uninstallation of the WooCommerce Product Options extension."
+msgstr ""
+
+#: src/Admin/Settings_Tab/General.php:125
+msgid "Delete data"
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: src/Admin/Settings_Tab/General.php:130
+msgid "Permanently delete all %s settings and data when uninstalling the plugin."
+msgstr ""
+
+#: src/Admin/Settings_Tab/Import_Export.php:42
+msgid "Import/Export"
+msgstr ""
+
+#: src/Admin/Version_Updater.php:116
+msgid "All price formulas have been successfully converted. Please double-check that everything works as expected."
+msgstr ""
+
+#. translators: %1$s: link to backup database page
+#: src/Admin/Version_Updater.php:131
+msgid "Your price formulas will be upgraded to the new version.<br>We strongly recommend you %1$s now and export of all your option groups before updating your formulas."
+msgstr ""
+
+#: src/Admin/Version_Updater.php:132
+msgid "backup your database"
+msgstr ""
+
+#: src/Admin/Version_Updater.php:138
+msgid "Export option groups"
+msgstr ""
+
+#: src/Admin/Version_Updater.php:143
+msgid "Update price formulas"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:22
+msgid "Complete Setup"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:35
+msgid "Congratulations, you have finished setting up the plugin. Now it’s time to start adding options to your products."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:22
+msgid "Welcome to WooCommerce Product Options."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:23
+msgid "Use this setup wizard to activate your license key and choose any complementary plugins. After that, you’ll be ready to start creating product options!"
+msgstr ""
+
+#. translators: %1$s: Option name %2$s: Product name
+#. translators: %s: Option name
+#. translators: %1: Option name %2: Product name
+#: src/Fields/Abstract_Field.php:228
+#: src/Fields/Checkboxes.php:56
+#: src/Fields/Date_Picker.php:73
+#: src/Fields/File.php:83
+msgid "\"%1$s\" is a required field for \"%2$s\"."
+msgstr ""
+
+#. translators: %1$s: Option name %2$s: Product name
+#. translators: %s: Option name
+#: src/Fields/Abstract_Field.php:238
+#: src/Fields/Checkboxes.php:68
+msgid "Invalid option choice for \"%1$s\" on \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Abstract_Field.php:780
+msgctxt "flat fee price"
+msgid "%s"
+msgstr ""
+
+#. translators: %1$s: A space or an empty string, %2$s: Option choice percentage increase
+#: src/Fields/Abstract_Field.php:784
+msgid "+%1$s%2$s%1$s%%"
+msgstr ""
+
+#. translators: %1$s: A space or an empty string, %2$s: Option choice percentage decrease
+#: src/Fields/Abstract_Field.php:788
+msgid "-%1$s%2$s%1$s%%"
+msgstr ""
+
+#: src/Fields/Abstract_Field.php:791
+msgctxt "quantity based price"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: Option choice price per character
+#: src/Fields/Abstract_Field.php:795
+msgid "%s per character"
+msgstr ""
+
+#. translators: %s: Option choice price per character
+#: src/Fields/Abstract_Field.php:799
+msgid "%s per uploaded file"
+msgstr ""
+
+#. translators: %1$s: Min quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Checkboxes.php:85
+msgid "You must select at least %1$d option for \"%2$s\" on \"%3$s\"."
+msgid_plural "You must select at least %1$d options for \"%2$s\" on \"%3$s\"."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$s: Max quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Checkboxes.php:103
+msgid "You can only select up to %1$d option for \"%2$s\" on \"%3$s\"."
+msgid_plural "You can only select up to %1$d options for \"%2$s\" on \"%3$s\"."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Fields/Date_Picker.php:86
+msgid "\"%1$s\" is not a valid date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:101
+msgid "Invalid minimum date for \"%1$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:105
+msgid "\"%1$s\" is before the minimum date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:119
+msgid "Invalid maximum date for \"%1$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:126
+msgid "\"%1$s\" is after the maximum date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:143
+msgid "Invalid disabled date for \"%1$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:147
+msgid "\"%1$s\" is an excluded date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:154
+msgid "\"%1$s\" is a disabled past date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:159
+msgid "\"%1$s\" is a disabled future date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:166
+msgid "\"%1$s\" is a disabled date for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:179
+msgid "\"%1$s\" is a disabled day for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:190
+msgid "\"%1$s\" is before the minimum time for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:199
+msgid "\"%1$s\" is after the maximum time for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:210
+msgid "\"%1$s\" is not a valid hour increment for \"%2$s\"."
+msgstr ""
+
+#: src/Fields/Date_Picker.php:221
+msgid "\"%1$s\" is not a valid minute increment for \"%2$s\"."
+msgstr ""
+
+#. translators: %1: Maxmimum number of files %2: Option name %3: Product name
+#: src/Fields/File.php:98
+msgid "You can only upload up to %1$d files(s) for \"%2$s\" on \"%3$s\"."
+msgstr ""
+
+#: src/Fields/File.php:217
+#: assets/js/modules/file-upload.js:1
+msgid "Drop files here to upload"
+msgstr ""
+
+#: src/Fields/Number.php:78
+msgid "Please enter a valid number."
+msgstr ""
+
+#. translators: %s: minimum number
+#: src/Fields/Number.php:85
+msgid "Please enter a number greater than or equal to %s."
+msgstr ""
+
+#. translators: %s: maximum number
+#: src/Fields/Number.php:92
+msgid "Please enter a number less than or equal to %s."
+msgstr ""
+
+#. translators: %s: step value
+#: src/Fields/Number.php:103
+msgid "Please enter a valid number. The value must be in steps of %1$s, starting from %2$s."
+msgstr ""
+
+#: src/Fields/Products.php:247
+#: src/Fields/Products.php:537
+msgid "Add to cart"
+msgstr ""
+
+#: src/Fields/Products.php:374
+#: src/Fields/Products.php:377
+msgid "Select a product"
+msgstr ""
+
+#: src/Fields/Products.php:818
+#: src/Fields/Products.php:824
+msgid "The selected product is not valid."
+msgstr ""
+
+#. translators: %1$d: Min quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Text.php:111
+msgid "You must input at least %1$d character for \"%2$s\" on \"%3$s\"."
+msgid_plural "You must input at least %1$d characters for \"%2$s\" on \"%3$s\"."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$d: Max quantity %2$s: Option name %3$s: Product name
+#: src/Fields/Text.php:126
+msgid "You can only input up to %1$d character for \"%2$s\" on \"%3$s\"."
+msgid_plural "You can only input up to %1$d characters for \"%2$s\" on \"%3$s\"."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Handlers/Add_To_Cart.php:94
+#: src/Handlers/Add_To_Cart.php:102
+msgid "Select options"
+msgstr ""
+
+#: src/Handlers/Add_To_Cart.php:96
+msgid "This product has options that may be chosen on the product page"
+msgstr ""
+
+#: src/Handlers/Add_To_Cart.php:210
+msgid "%1$s &times; %2$s"
+msgstr ""
+
+#: src/Handlers/Add_To_Cart.php:222
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %1$s: link to the shop/cart, %2$s: product title, %3$s: list of additional products
+#: src/Handlers/Add_To_Cart.php:226
+msgid "%1$s has been added to your cart, together with the following additional products: %2$s"
+msgstr ""
+
+#. translators: %s is the group name, %s is the option name
+#: src/Integration/WPML.php:98
+msgid "Group %1$s, option %2$s, name"
+msgstr ""
+
+#. translators: %s is the group name, %s is the option name
+#: src/Integration/WPML.php:104
+msgid "Group %1$s, option %2$s, description"
+msgstr ""
+
+#. translators: %s is the group name, %s is the option name
+#: src/Integration/WPML.php:111
+msgid "Group %1$s, option %2$s, content"
+msgstr ""
+
+#. translators: %s is the group name, %s is the option name, %d is the choice index
+#: src/Integration/WPML.php:119
+msgid "Group %1$s, option %2$s, label %3$d"
+msgstr ""
+
+#: src/Rest/Routes/File_Upload.php:58
+#: src/Rest/Routes/File_Upload.php:62
+#: src/Rest/Routes/Formula.php:66
+msgid "Insufficient data supplied."
+msgstr ""
+
+#: src/Rest/Routes/File_Upload.php:68
+#: src/Rest/Routes/File_Upload.php:72
+msgid "Insufficient data supplied"
+msgstr ""
+
+#: src/Rest/Routes/File_Upload.php:76
+msgid "File type is not allowed."
+msgstr ""
+
+#: src/Rest/Routes/Formula.php:78
+msgid "Invalid option ID."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:59
+msgid "An array of group IDs."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:105
+#: src/Rest/Routes/Group.php:127
+#: src/Rest/Routes/Group.php:1741
+msgid "The unique identifier for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:156
+msgid "An array of group_id => menu_order data."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:203
+msgid "An array of product IDs."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:208
+msgid "A search to filter products by name or SKU."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:228
+msgid "An array of category IDs."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:250
+#: src/Rest/Routes/Group.php:280
+#: src/Rest/Routes/Group.php:1507
+msgid "No groups"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:460
+msgid "No group"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:486
+msgid "Something went wrong while creating the group"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:504
+#: src/Rest/Routes/Group.php:1300
+msgid "Something went wrong: could not create an option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:541
+msgid "Something went wrong while duplicating the group"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:969
+#: src/Rest/Routes/Group.php:1042
+msgid "Something went wrong: could not update the selected group"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:996
+msgid "Something went wrong: could not update an option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1071
+msgid "Something went wrong: could not find the group"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1094
+#: src/Rest/Routes/Option.php:295
+msgid "Something went wrong with reodering."
+msgstr ""
+
+#. translators: 1: option name, 2: formula name
+#: src/Rest/Routes/Group.php:1166
+msgid "The option \"%1$s\" no longer exists. Please update the formula \"%2$s\"."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1585
+msgid "Missing parameters. Please provide either \"include\" or \"search\" parameter."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1607
+msgid "No products"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1653
+msgid "No search term provided"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1713
+msgid "No categories"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1746
+msgid "The menu order for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1751
+msgid "The name for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1756
+msgid "Indicates whether the group name should be displayed."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1761
+msgid "The visiblity status for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1769
+msgid "The products for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1777
+msgid "The products to exclude for for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1785
+msgid "The categories for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1793
+msgid "The categories to exclude for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1798
+msgid "The options for the group."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1805
+#: src/Rest/Routes/Option.php:80
+#: src/Rest/Routes/Option.php:128
+#: src/Rest/Routes/Option.php:324
+msgid "The unique identifier for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1810
+#: src/Rest/Routes/Option.php:329
+msgid "The Group ID to which the option belongs."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1815
+#: src/Rest/Routes/Option.php:334
+msgid "The menu order for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1820
+#: src/Rest/Routes/Option.php:339
+msgid "The name for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1825
+#: src/Rest/Routes/Option.php:344
+msgid "The visiblity status for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1830
+#: src/Rest/Routes/Option.php:349
+msgid "The field type for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1835
+#: src/Rest/Routes/Option.php:354
+msgid "The choices for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1840
+#: src/Rest/Routes/Option.php:359
+msgid "Indicates whether the option is required."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1845
+#: src/Rest/Routes/Option.php:364
+msgid "Indicates whether the option name should be displayed."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1850
+msgid "Any specific extra settings for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1855
+msgid "Settings for the datepicker"
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1860
+msgid "The choice type for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1865
+msgid "The selected attribute for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1870
+msgid "The date format for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1875
+msgid "The minimum date for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1880
+msgid "The maximum date for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1885
+msgid "The days to disable for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1893
+msgid "The dates to disable for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1898
+msgid "Indicates whether past dates should be disabled for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1903
+msgid "Indicates whether future dates should be disabled for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1908
+msgid "Indicates whether the time should be enabled for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1913
+msgid "The minimum time for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1918
+msgid "The maximum time for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1925
+msgid "The minute increment for the option."
+msgstr ""
+
+#: src/Rest/Routes/Group.php:1932
+msgid "The hour increment for the option."
+msgstr ""
+
+#: src/Rest/Routes/Option.php:60
+msgid "The unique identifier for the parent group."
+msgstr ""
+
+#: src/Rest/Routes/Option.php:148
+msgid "An array of option_id => menu_order data."
+msgstr ""
+
+#: src/Rest/Routes/Option.php:170
+#: src/Rest/Routes/Option.php:188
+msgid "No options"
+msgstr ""
+
+#: src/Rest/Routes/Option.php:206
+msgid "No option"
+msgstr ""
+
+#: src/Rest/Routes/Option.php:230
+msgid "Something went wrong while creating the option"
+msgstr ""
+
+#: src/Rest/Routes/Option.php:253
+msgid "Something went wrong: could not update the selected option"
+msgstr ""
+
+#: src/Rest/Routes/Option.php:274
+msgid "Something went wrong: could not find the option"
+msgstr ""
+
+#: src/Upload_Directory.php:37
+msgid "The files uploaded via WooCommerce Product Options are not currently protected."
+msgstr ""
+
+#: src/Upload_Directory.php:38
+msgid "To protect them, you must add this <a href=\"https://barn2.com/kb/\">NGINX redirect rule</a>. If you have already done this, or it does not apply to your site, you may permanently dismiss this notice."
+msgstr ""
+
+#. translators: %s: option name
+#: src/Util/Cart.php:80
+msgid "The option \"%s\" is not supported."
+msgstr ""
+
+#: src/Util/Display.php:128
+msgid "Total: "
+msgstr ""
+
+#: src/Util/Util.php:186
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "Weight"
+msgstr ""
+
+#: src/Util/Util.php:190
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "Length"
+msgstr ""
+
+#: src/Util/Util.php:194
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "Width"
+msgstr ""
+
+#: src/Util/Util.php:198
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "Height"
+msgstr ""
+
+#: assets/js/admin/wpo-dashboard.js:1
+msgid "An error occurred while processing your request."
+msgstr ""
+
+#: assets/js/admin/wpo-dashboard.js:1
+msgid "An error occurred while processing your request. Please reload the page and try again."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Export"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Export your product options as a JSON file so that you can easily import them in a different WordPress installation."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Product option groups"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Select all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Deselect all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Please select at least one group to export."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Export as JSON"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "A group with the same configuration is already present in the database."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Choose \"Overwrite\" to replace it with the imported group, or \"Duplicate\" to create a new group."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Products and categories this group was attached to will be remapped."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "This group was attached to products and categories that are not present in the database."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "The visibility settings will switch to \"Global\"."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+#: assets/js/admin/wpo-import-export.js:23
+msgid "Import"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Skip"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Overwrite"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+#: assets/js/admin/wpo-settings-page.js:37
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Duplicate"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Please review the list below, select the appropriate action for each group and click the \"Import\" button to proceed."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Import all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Skip all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Overwrite all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Duplicate all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Reset all"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "There was an issue while importing the option groups: %s<br>Please try again."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "No file chosen"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Import product options from a different WordPress installation. Select the JSON file you previously exported and click the \"Import\" button to proceed. You will be able to review the groups before importing them."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Select file"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "Choose file"
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "This is not a valid JSON file."
+msgstr ""
+
+#: assets/js/admin/wpo-import-export.js:14
+msgid "This is not a WooCommerce Product Options export file."
+msgstr ""
+
+#. translators: %s: the summary of the imported groups
+#: assets/js/admin/wpo-import-export.js:17
+msgid "Import complete - %s"
+msgstr ""
+
+#. translators: %s: the number of imported groups
+#: assets/js/admin/wpo-import-export.js:20
+msgid "%s option group was imported."
+msgid_plural "%s option groups were imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: list of group names
+#: assets/js/admin/wpo-import-export.js:23
+msgid "The following option groups could not be imported: %s"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:14
+msgid "Route not found."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:14
+msgid "Clear all selected products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:14
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "No products found"
+msgstr ""
+
+#. translators: %s: product select search query
+#: assets/js/admin/wpo-settings-page.js:16
+msgctxt "products"
+msgid "No results for %s"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:16
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Search for products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:16
+msgid "Selected products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:16
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "There was a problem fetching your products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:16
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Clear all selected categories"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:16
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "No categories found"
+msgstr ""
+
+#. translators: %s: category select search query
+#: assets/js/admin/wpo-settings-page.js:18
+msgctxt "categories"
+msgid "No results for %s"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Search for categories"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Selected categories"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "There was a problem fetching your product categories."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Checkboxes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Contains"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Does not contain"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Radio buttons"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Equals"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Does not equal"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Dropdown select"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Text input"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Is empty"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Is not empty"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Paragraph"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Number"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Greater than"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Less than"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "File upload"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Has an upload"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Does not have an upload"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Image buttons"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Color swatches"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Text labels"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Customer defined price"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Date"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Price formula"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Visual editor"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "HTML"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Advanced settings"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Static content"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Use static content to add extra information before, after or between your product options - for example, this is useful for adding headings between the options."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Edit or update the image"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Add Media"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Formula value"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Image"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Selected by default"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Wholesale price"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Select which columns to display"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Set specific pricing for your wholesale roles."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Set specific percentages for your wholesale roles."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Label"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "A value that can be used in price formulas."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Color"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Price Type"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Pricing"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Wholesale"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Selected"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Value"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "No cost"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Flat fee"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Quantity-based fee"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Percentage increase"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Percentage decrease"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Character count"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "File count"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Remove this choice"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Duplicate this choice"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Add a choice"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Drag to reorder"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Product"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Variation"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Please select one or more variations."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "No usable variations found"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "You can only use variations that are defined for all the attributes used in a variable product."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Title"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Price (highest)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Price (lowest)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Rating (highest)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Rating (lowest)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Date (newest)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Date (oldest)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Popularity"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Category"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Limit"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Sorting"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "The following products will be displayed:"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "The selected products will change dynamically to ensure that the above criteria are always met. "
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Learn more."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "No available products found. "
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Show"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Hide"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid " this option if "
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "All"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Any"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "of the following match:"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Condition"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Comparison"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Select a condition"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:37
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Options"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Select a comparison"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Select a choice"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Any choice"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Add image"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Select one or more file types"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Allowed file types"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:37
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Delete"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Custom variables"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Add custom variables to use in the price formula."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Variable Name"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Formula"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "variable"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "formula"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Remove this variable"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Clone this variable"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Add variable"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Delete custom variable"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Are you sure you want to delete this custom variable?"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Word count"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Line count"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Checked"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "If none selected"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "If any selected"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "If all selected"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Count selected"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Min selected value"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Max selected value"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Sum of selected values"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "If selected"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Selected value"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Number of days from today"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Year"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Month (1-12)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Day (1-31)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Weekday (%s: 1 - %s: 7)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Result"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Min price of selected products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Max price of selected products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Total price of selected products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:18
+msgid "Selected product price"
+msgstr ""
+
+#. translators: %s is the missing variable name
+#: assets/js/admin/wpo-settings-page.js:21
+msgid "The formula \"%s\" contains variables that do not correspond to any options or custom variables: %s."
+msgstr ""
+
+#. translators: %s is the variable name
+#: assets/js/admin/wpo-settings-page.js:24
+msgid "Variable names cannot start with a digit: please change the name of option [%s]."
+msgstr ""
+
+#. translators: %1$s is the variable name, %2$s is the name of the formula option
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Variable [%1$s] does not correspond to any option in this group. Please check the formula%2$s."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "The `pow()` function requires two arguments: the base and the exponent."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "Price"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "Quantity in cart"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "+"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "-"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "*"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "/"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "("
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid ")"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "<"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid ">"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "<="
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid ">="
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "="
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/modules/price-formulas.js:1
+msgid "!="
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "The formula is not complete or contains a syntax error."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Invalid formula"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Use our Price Formula bot"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Math"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Logical"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Others"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/wpo-product-table.js:1
+#: assets/js/wpo-quick-view.js:1
+#: assets/js/wpo-restaurant-order.js:1
+#: assets/js/wpo-single-product.js:1
+msgid "bulkPrice() requires an even number of arguments after the product price and quantity"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/wpo-product-table.js:1
+#: assets/js/wpo-quick-view.js:1
+#: assets/js/wpo-restaurant-order.js:1
+#: assets/js/wpo-single-product.js:1
+msgid "bulkRate() requires an even number of arguments after the product price and quantity"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Functions"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Monday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Tuesday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Wednesday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Thursday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Friday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Saturday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Sunday"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Disable days"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Select one or more days of the week to disable"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Please select a variation attribute."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "All terms are listed above, but only those which are available as variations for the current product will appear on the front end."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "To change the name and price of each choice, edit the variation on the Edit Product page."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "Clear all selected attributes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:27
+msgid "No attributes found"
+msgstr ""
+
+#. translators: %s: attribute select search query
+#: assets/js/admin/wpo-settings-page.js:29
+msgctxt "attribute"
+msgid "No results for %s"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Search for attributes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Selected attributes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Choice"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Choices"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Option name"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/admin/wpo-settings-page.js:32
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Display"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Type"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Choice type"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Either create custom choices directly in the WooCommerce Product Options plugin, or select existing global attributes (created via Products > Attributes) to display using WooCommerce Product Options."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Create custom choices"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Create choices using existing variation attributes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Variation attribute"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "The label that appears alongside the option."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Images"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Update the main product image when the customer clicks on an image button; and also include choice images in the product gallery."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:29
+msgid "Update main product image when a choice is selected"
+msgstr ""
+
+#. translators: %s: Option type (any multi-choice options)
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Display image next to each %s"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Selection options"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Disable past dates"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Disable future dates"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Disable today"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Enable time"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Select the days of the week to disable."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Price display suffix"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Define text to be displayed after the product price. E.g. \"per meter\"."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Ignore main product price"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Enable this to prevent the main product price from being included in the total product price. E.g. if the main product price is $20 to indicate that a product is priced by the meter, enable this option to prevent $20 from being added to the calculated price."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Select specific products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Select products dynamically"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Choose which categories to display products from. Only Simple products can be displayed dynamically."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Display choices as"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Live Preview"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Enable live preview"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "Preview button"
+msgstr ""
+
+#. translators: %s: link to the Media library
+#: assets/js/admin/wpo-settings-page.js:30
+msgid "You should set the printable areas for each product image by editing the image in the Media Library."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Description"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Enter an optional description to display underneath the product options."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "Image width"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:32
+msgid "px"
+msgstr ""
+
+#. translators: %s: Option type label
+#: assets/js/admin/wpo-settings-page.js:34
+msgid "Display %s only"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:34
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "images"
+msgstr ""
+
+#. translators: %s: Option type label
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Display label and %s"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Label position"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Full overlay"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Full overlay on hover"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Partial overlay"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Above image"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Below image"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Required"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Force customers to select an option before they can add the product to the cart."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Maximum file size (MB)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Maximum number of files"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Choice restrictions"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Set the minimum and maximum number of choices that can be selected."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Minimum"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Maximum"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Default value"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Number type"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Whole number"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Decimal"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Number limits"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Character limits"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Date format"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Date limits"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Enter a date in the format YYYY-MM-DD, or enter a dynamic date such as +6d to disable the date which is 6 days from the current date."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Disable dates"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Enter a comma separated list of dates in the format YYYY-MM-DD, or enter a dynamic date such as +6d to disable the date which is 6 days from the current date."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Time limits"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Enter a start and end time to restrict the available times."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Time increment"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Choose the time increments for the time picker."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Hours"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Minutes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Conditional logic"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Custom CSS class"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Enter additional CSS classes for styling purposes."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Option group successfully created"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "There was an issue while duplicating the group: %s<br>Please try again."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "Option group successfully updated"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "There was an issue while updating the group: %s<br>Please try again."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:36
+msgid "There was an issue while creating the group: %s<br>Please try again."
+msgstr ""
+
+#. translators: %s: Option group name
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Are you sure you want to delete the \"%s\" option?"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Are you sure you want to delete this option?"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Name"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Please select one or more products or categories."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Group name"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Option group must be given a name."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Visibility"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Display globally on all products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Show on specific categories or products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Inclusions"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Exclusions"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "No options found."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Add option"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Close option"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Edit option"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Delete option"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Save changes"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Option Groups"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Add new"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Edit option group"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "(No name)"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "All products"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Product: "
+msgid_plural "Products: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Category: "
+msgid_plural "Categories: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Excluding product: "
+msgid_plural "Excluding products: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Excluding category: "
+msgid_plural "Excluding categories: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "There was an issue while updating the status of the group: %s<br>Please try again later."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Option group successfully deleted"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "There was an issue while deleting the group: %s. Please try again."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "Option groups successfully reordered"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:37
+msgid "There was an issue while saving your new group order: %s<br>Please try again."
+msgstr ""
+
+#. translators: %s: Option group name
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Are you sure you want to delete the \"%s\" option group?"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Are you sure you want to delete this option group?"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Options Group"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Enabled"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Add Group"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Create as many sets of product options as you like, organized into groups. You can choose which products will display the options for each group. "
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "No product options yet"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "add options"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Drag and drop to re-order. This is used to order the options when a product has more than one group."
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Edit"
+msgstr ""
+
+#: assets/js/admin/wpo-settings-page.js:38
+msgid "Delete option group"
+msgstr ""
+
+#: assets/js/admin/wpo-setup-wizard.js:1
+msgid "Create product options"
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "Your browser does not support drag'n'drop file uploads."
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "Please use the fallback form below to upload your files like in the olden days."
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "You can't upload files of this type."
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "Server responded with {{statusCode}} code."
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "Cancel upload"
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "Upload canceled."
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "Are you sure you want to cancel this upload?"
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "You can not upload any more files."
+msgstr ""
+
+#: assets/js/modules/file-upload.js:1
+msgid "File is too big ({{filesize}} MB). Max filesize: {{maxFilesize}} MB."
+msgstr ""
+
+#. translators: %d: minimum number of required options
+#: assets/js/wpo-product-table.js:2
+#: assets/js/wpo-quick-view.js:2
+#: assets/js/wpo-restaurant-order.js:2
+#: assets/js/wpo-single-product.js:2
+msgid "Please select at least %d option."
+msgid_plural "Please select at least %d options."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: maximum number of required options
+#: assets/js/wpo-product-table.js:3
+#: assets/js/wpo-quick-view.js:3
+#: assets/js/wpo-restaurant-order.js:3
+#: assets/js/wpo-single-product.js:3
+msgid "Please select no more than %d option."
+msgid_plural "Please select no more than %d options."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/wpo-product-table.js:3
+#: assets/js/wpo-quick-view.js:3
+#: assets/js/wpo-restaurant-order.js:3
+#: assets/js/wpo-single-product.js:3
+msgid "Please select an option."
+msgstr ""
+
+#: assets/js/wpo-product-table.js:3
+#: assets/js/wpo-quick-view.js:3
+#: assets/js/wpo-restaurant-order.js:3
+#: assets/js/wpo-single-product.js:3
+msgid "Please select a file."
+msgstr ""
+
+#: assets/js/wpo-product-table.js:3
+#: assets/js/wpo-quick-view.js:3
+#: assets/js/wpo-restaurant-order.js:3
+#: assets/js/wpo-single-product.js:3
+msgid "Please select a date."
+msgstr ""

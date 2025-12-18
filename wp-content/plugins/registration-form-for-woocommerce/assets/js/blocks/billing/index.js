@@ -1,0 +1,12 @@
+export { default as registerBillingCompanyBlock } from './company';
+export { default as registerBillingCountryRegionBlock } from './country-region';
+export { default as registerBillingEmailBlock } from './email';
+export { default as registerBillingFirstnameBlock } from './firstname';
+export { default as registerBillingLastnameBlock } from './lastname';
+export { default as registerBillingPhoneBlock } from './phone';
+export { default as registerBillingSeparateShippingBlock } from './separate-shipping';
+export { default as registerBillingStateBlock } from './state';
+export { default as registerBillingStreetAddress1Block } from './street-address-1';
+export { default as registerBillingStreetAddress2Block } from './street-address-2';
+export { default as registerBillingTownCityBlock } from './town-city';
+export { default as registerBillingZipCodeBlock } from './zip-code';
